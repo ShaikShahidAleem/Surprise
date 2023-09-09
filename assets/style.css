@@ -1,0 +1,86 @@
+body{
+    background-image: url(./images/bg1.jpg);
+    background-size: 100%;
+}
+h1{
+    z-index: 1;
+    margin-top: 5%;
+}
+img{
+    margin:20px;
+}
+img[value="2"]{
+    border: 10px dashed white;
+    height: 5rem;
+    width: 80%;
+    rotate: 0.3rad;
+}
+img[value="3"]{
+    border: 10px dashed white;
+    height: 60%;
+    width: 60%;
+    float: right;
+    rotate: 0.5rad;
+}
+img[value="4"]{
+    display: inline-block;
+    border: 10px dashed silver;
+    height: 28%;
+    width: 25%;
+    margin-left: 24px;
+    z-index: -1;
+    position: absolute;
+}
+img[value="5"]{
+    border: 10px dashed gold;
+    height: 60%;
+    width: 60%;
+    rotate: -0.5rad
+}
+img[value="6"]{
+    border: 10px dashed gold;
+    height: 60%;
+    width: 60%;
+    float: right;
+    rotate: 0.3rad;
+}
+.left{
+    z-index: -1;
+    width: 30%;
+    float:left;
+    margin-left: 10px;
+    position: relative;
+}
+.right{
+    z-index: -1;
+    width: 30%;
+    float: right;
+    margin-right: 5px;
+    position:relative;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(121, 23, 5);
+    margin-bottom: 2%;
+}
+p{
+    font-family: 'Courgette', cursive;
+}
+p[value="1"]{
+    font-size: 2rem;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    z-index: 1;
+    text-align: center;
+    color: rgb(60, 198, 198);
+}
+p[value="2"]{
+    font-size: 2rem;
+    z-index: 1;
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 20%;
+    color: rgb(137, 89, 182);
+}
